@@ -1,8 +1,8 @@
 /* this resizes the shopping bag to be consistent for all pages*/
-header img {
+#cartimg {
     position: right;
     display: static;
-    width:10px;
-    height:10px;
+    width:15px;
+    height:15px;
 }
 

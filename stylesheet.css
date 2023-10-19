@@ -1,0 +1,7 @@
+/* this resizes the shopping bag to be consistent for all pages*/
+header img {
+    position: right;
+    display: static;
+    size: 10px, 10px, 10px;
+}
+

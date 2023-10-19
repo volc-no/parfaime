@@ -5,4 +5,19 @@
     width:15px;
     height:15px;
 }
-
+/* this styles the navigation the same*/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+/* styles the column for the index page */
+.column {
+    float: left;
+    width: 50%;
+  }
+/* styles the footer the same*/ 
+footer {
+    font-size: smaller;
+}

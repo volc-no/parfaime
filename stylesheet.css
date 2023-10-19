@@ -2,6 +2,7 @@
 header img {
     position: right;
     display: static;
-    size: 10px, 10px, 10px;
+    width:10px;
+    height:10px;
 }
 

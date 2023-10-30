@@ -1,23 +1,32 @@
+/* set color scheme to entire site*/
+:root {color-scheme: normal;}
+
+/* logo image */
+#logoimg.fixed {position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;}
+    
 /* this resizes the shopping bag to be consistent for all pages*/
-#cartimg {
-    position: right;
-    display: static;
-    width:15px;
-    height:15px;
-}
+#cartimg.fixed {position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;}
+
 /* this styles the navigation the same*/
-nav {
-    list-style-type: none;
+nav {list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
-}
+    display: inline;}
+
 /* styles the column for the index page */
-.column {
-    float: left;
-    width: 50%;
-  }
+.column {float: left;
+    width: 50%;}
+
+/* font property for paragraph*/
+p {font-family: Arial, Helvetica, sans-serif;}
+
 /* styles the footer the same*/ 
-footer {
-    font-size: smaller;
-}
+footer {font-size: smaller;}
+

@@ -47,6 +47,12 @@ nav {list-style-type: none;
 .column {float: left;
     width: 50%;}
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* font property for paragraph*/
 p {font-family: Arial, Helvetica, sans-serif;}
 

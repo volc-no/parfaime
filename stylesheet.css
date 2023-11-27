@@ -14,10 +14,14 @@
     height: 20%;}
 
 /* this styles the navigation the same*/
-nav {list-style-type: none;
+nav ul {list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;}
+}
+
+nav > ul > li {
+    display: inline;
+}
 
 .navigation {
     background-color: white;

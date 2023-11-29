@@ -79,6 +79,11 @@ li a {
 /* font property for paragraph*/
 p {font-family: Georgia, 'Times New Roman', Times, serif;}
 
+.cart-text {
+    color: darkgray;
+    text-align: center;
+}
+
 /* about box*/
 #abouttext {width: auto;
     padding: 50px;
@@ -94,3 +99,13 @@ p {font-family: Georgia, 'Times New Roman', Times, serif;}
 /* styles the footer the same*/ 
 footer {font-size: smaller;}
 
+.collection-column {float: left;
+    width: 33%
+}
+
+.collectionimg {
+    float: left;
+    width: 300px;
+    height: 500px;
+    object-fit: cover; 
+}

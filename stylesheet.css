@@ -5,7 +5,14 @@
 #logoimg.fixed {position: fixed;
     top: 0;
     left: 0;
-    width: 100%;}
+    width: 100%;
+}
+
+#shopbag.fixed {position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+}
 
 /* index image */
 .seulgi {display: block;
@@ -60,12 +67,12 @@ li a {
 /* page column for shop*/
 .left-column {
     float: left;
-    width: 25%;
+    width: 15%;
 }
 
 .right-column {
     float: left;
-    width: 75%;
+    width: 85%;
 }
 
 /* styles the column for the index page */

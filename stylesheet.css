@@ -8,25 +8,18 @@
     width: 100%;
 }
 
-.shopbag.fixed {position: absolute;
+.shopbag.fixed {position: fixed;
     top: 0px;
     right: 0px;
     width: 5px;
 }
 
-.minji {display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    height: auto;
-}
-
 /* index image */
-.seulgi {display: block;
+.home-perfume {display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 98%;
-    height: 500px;
+    width: 60%;
+    height: auto;
 }
 
 .annasui, .perfumes {

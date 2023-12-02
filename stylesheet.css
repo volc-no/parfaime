@@ -8,10 +8,17 @@
     width: 100%;
 }
 
-#shopbag.fixed {position: absolute;
+.shopbag.fixed {position: absolute;
     top: 0px;
     right: 0px;
-    width: 15px;
+    width: 5px;
+}
+
+.minji {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
 }
 
 /* index image */
@@ -45,7 +52,7 @@ nav ul {list-style-type: none;
 nav > ul > li {
     float: right;
     position: absolute;
-    bottom: 8px;
+    top: 70px;
     right: 8px;
 }
 

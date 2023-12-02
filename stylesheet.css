@@ -8,8 +8,10 @@
     width: 100%;}
 
 /* index image */
-.seulgi {max-width: 100;
-    height: auto;
+.seulgi {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 .annasui, .perfumes {

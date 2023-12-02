@@ -50,7 +50,7 @@ nav ul {list-style-type: none;
 }
 
 nav > ul > li {
-    float: right;
+    float: left;
     position: absolute;
     top: 70px;
     right: 8px;

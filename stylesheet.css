@@ -79,8 +79,14 @@ li a {
 }
 
 /* styles the column for the index page */
-.column {float: left;
+.i-column {float: left;
+    width: 40%;}
+
+.j-column {float: left;
     width: 50%;}
+
+.k-column {float: left;
+    width: 10%}
 
 .row:after {
     content: "";

@@ -67,7 +67,7 @@ li a {
     color: white;
 }
 
-/* page column for shop*/
+/* page columns for shop*/
 .left-column {
     float: left;
     width: 15%;
@@ -76,6 +76,12 @@ li a {
 .right-column {
     float: left;
     width: 85%;
+}
+
+/*SHOP COLUMNS*/
+.s-column {
+    float: left;
+    width: 30%;
 }
 
 /* styles the column for the index page */

@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-#shopbag.fixed {position: fixed;
+.top-right {position: fixed;
     top: 8px;
     right: 8px;
     width: 10%;

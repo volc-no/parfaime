@@ -5,7 +5,8 @@
 #logoimg.fixed {position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
+    height: auto;
 }
 
 .top-right {position: fixed;
@@ -26,14 +27,15 @@
 .home-perfume {display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 70%;
     height: auto;
 }
 
 #shopbag {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-top: 50;
+    padding-top: 20;
     top: 0px;
     right: 0px;
 }
@@ -47,6 +49,8 @@
     float: left;
     width: 225px;
     height: 225px;
+    padding: 20px;
+    margin: 10px;
     object-fit: cover;
 }
 
@@ -133,30 +137,21 @@ p {font-family: Georgia, 'Times New Roman', Times, serif;}
 /*ABOUT COLUMNS*/
 .a1-column {
     float: left;
-    width: 40%;
+    width: 30%;
 }
 
 .a2-column {
     float: left;
-    width: 30%;
+    width: 40%;
 }
 
 .a3-column {
     float: left;
-    width: 30%;
+    width: 40%;
 }
 
-/* about box*/
-#abouttext {width: auto;
-    padding: 50px;
-    margin: 20px;
-    left: 0;}
-
-/* purpose box*/
-#purposetext {width: auto;
-    padding: 50px;
-    margin: 20px;
-    right: 0;}
+/* about and purpose box*/
+#abouttext, #purposetext {width: auto;}
 
 /* styles the footer the same*/ 
 footer {font-size: smaller;}

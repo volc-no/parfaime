@@ -14,6 +14,14 @@
     width: 10%;
 }
 
+#aboutimg {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 /* index image */
 .home-perfume {display: block;
     margin-left: auto;
@@ -23,8 +31,11 @@
 }
 
 #shopbag {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 50;
+    top: 0px;
+    right: 0px;
 }
 
 .annasui, .perfumes {
@@ -41,7 +52,7 @@
 
 /* this styles the navigation the same*/
 nav ul {list-style-type: none;
-    margin: 0;
+    margin-top: 50;
     padding: 0;
     overflow: hidden;
     background-color: white;
@@ -123,6 +134,16 @@ p {font-family: Georgia, 'Times New Roman', Times, serif;}
 .a1-column {
     float: left;
     width: 40%;
+}
+
+.a2-column {
+    float: left;
+    width: 30%;
+}
+
+.a3-column {
+    float: left;
+    width: 30%;
 }
 
 /* about box*/

@@ -149,12 +149,12 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .a2-column {
-    float: left;
+    float: none;
     width: 30%;
 }
 
 .a3-column {
-    float: left;
+    float: none;
     width: 34%;
 }
 

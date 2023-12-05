@@ -51,7 +51,7 @@
     height: 225px;
     padding: 20px;
     margin: 10px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* this styles the navigation the same*/

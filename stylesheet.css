@@ -110,7 +110,6 @@ li a {
 .s-column {
     float: left;
     width: 30%;
-    height: fit-content;
 }
 
 h4, h4 + p {

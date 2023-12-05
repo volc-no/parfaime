@@ -196,8 +196,11 @@ input[type=submit], input[type=button] {
 }
 
 .look-image {
-    width: 500px;
-    height: 700px;
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*overlay*/ 

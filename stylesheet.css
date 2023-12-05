@@ -109,7 +109,8 @@ li a {
 /*SHOP COLUMNS*/
 .s-column {
     float: left;
-    width: 25%;
+    width: 30%;
+    height: fit-content;
 }
 
 h4, h4 + p {

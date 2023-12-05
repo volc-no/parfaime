@@ -5,7 +5,7 @@
 #logoimg.fixed {position: fixed;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 10%;
     height: auto;
 }
 
@@ -115,7 +115,7 @@ li a {
     width: 40%;}
 
 .j-column {float: left;
-    width: 50%;}
+    width: 40%;}
 
 .k-column {float: left;
     width: 10%}

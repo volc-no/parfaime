@@ -10,7 +10,6 @@ header {
     top: 0; 
     margin-top: 150;
     margin-left: 100;
-    padding-left: 50px;
     width: 200px;
     height: auto;
 }
@@ -269,7 +268,6 @@ body {
   
   .center-text {
     color: white;
-    background-color: grey;
     font-weight: bold;
     font-size: 20px;
     position: absolute;

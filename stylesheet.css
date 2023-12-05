@@ -2,7 +2,7 @@
 :root {color-scheme: normal;}
 
 /* logo image */
-#logoimg.fixed {position: fixed;
+#logoimg {position: fixed;
     top: 0;
     left: 0;
     width: 100px;

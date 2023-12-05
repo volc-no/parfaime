@@ -127,7 +127,7 @@ li a {
 }
 
 /* font property for paragraph*/
-p {font-family: Georgia, 'Times New Roman', Times, serif;}
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 .cart-text {
     color: darkgray;
@@ -194,3 +194,12 @@ footer {font-size: smaller;}
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+footer {
+    color: darkslategrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

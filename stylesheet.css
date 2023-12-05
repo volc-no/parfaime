@@ -2,14 +2,16 @@
 :root {color-scheme: normal;}
 
 /* logo image */
-#logoimg.fixed {position: fixed;
+#logoimg.fixed {
+    position: fixed;
     top: 0;
     left: 0;
     width: 50%;
     height: auto;
 }
 
-.top-right {position: fixed;
+.top-right {
+    position: fixed;
     top: 8px;
     right: 8px;
     width: 10%;
@@ -24,7 +26,8 @@
 }
 
 /* index image */
-.home-perfume {display: block;
+.home-perfume {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -45,6 +48,14 @@
     height: auto;
 }
 
+.outlinebox {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: lightslategrey;
+    outline-width: thin;
+    color: darkslategrey;
+}
+
 .shop-item {
     float: left;
     width: 225px;
@@ -55,7 +66,8 @@
 }
 
 /* this styles the navigation the same*/
-nav ul {list-style-type: none;
+nav ul {
+    list-style-type: none;
     margin-top: 50;
     padding: 0;
     overflow: hidden;
@@ -120,12 +132,6 @@ li a {
 .k-column {float: left;
     width: 10%}
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 /* font property for paragraph*/
 p {font-family: Georgia, 'Times New Roman', Times, serif;}
 
@@ -142,12 +148,12 @@ p {font-family: Georgia, 'Times New Roman', Times, serif;}
 
 .a2-column {
     float: left;
-    width: 40%;
+    width: 50%;
 }
 
 .a3-column {
     float: left;
-    width: 40%;
+    width: 30%;
 }
 
 /* about and purpose box*/

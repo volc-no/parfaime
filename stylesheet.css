@@ -2,7 +2,7 @@
 :root {color-scheme: normal;}
 
 header {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 /* logo image */
@@ -132,7 +132,9 @@ li a {
 }
 
 /* font property for paragraph*/
-p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
 
 .cart-text {
     color: darkgray;
@@ -142,7 +144,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 /*ABOUT COLUMNS*/
 .a1-column {
     float: left;
-    width: 30%;
+    width: 25%;
 }
 
 .a2-column {
@@ -163,6 +165,8 @@ input[type=submit] {
     cursor: pointer;
     border: 1px darkslategrey; 
     border-radius: 50%;
+    padding: 15px 32px;
+    text-align: center;
 }
 
 .collection-column {float: left;
@@ -211,5 +215,5 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 10px;
 }

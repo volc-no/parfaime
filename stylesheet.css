@@ -10,7 +10,6 @@ header {
     top: 0; 
     margin-top: 150;
     margin-left: 100;
-    padding-left: 50px;
     width: 200px;
     height: auto;
 }
@@ -164,6 +163,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 input[type=submit], input[type=button] {
     color: white;
+    background-color: grey;
     cursor: pointer;
     border: 1px darkslategrey; 
     border-radius: 50%;
@@ -272,7 +272,6 @@ body {
   
 .center-text {
     color: white;
-    background-color: grey;
     font-weight: bold;
     font-size: 20px;
     position: absolute;

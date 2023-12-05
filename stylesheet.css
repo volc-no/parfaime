@@ -184,6 +184,21 @@ input[type=submit], input[type=button] {
     object-fit: cover; 
 }
 
+.collection-container{
+    text-align: center;
+    color: black;
+}
+  
+.center-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* LOOKBOOK */
 .look-img-col {
     float: left;
@@ -216,20 +231,6 @@ input[type=submit], input[type=button] {
     transition: .5s ease;
     background-color: lightslategray;
 }
-  
-  .container:hover .overlay {
-    opacity: 50%;
-  }
-  
-  .center-text {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 
 footer {
     color: darkslategrey;

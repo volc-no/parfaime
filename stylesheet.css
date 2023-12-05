@@ -170,6 +170,7 @@ input[type=submit], input[type=button] {
     align-self: center;
 }
 
+/*COLLECTIONS*/ 
 .collection-column {float: left;
     width: 33%
 }
@@ -178,11 +179,28 @@ input[type=submit], input[type=button] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
-    height: 500px;
+    width: 450px;
+    height: 650px;
     object-fit: cover; 
 }
 
+/* LOOKBOOK */
+.look-img-col {
+    float: left;
+    width: 60%;
+}
+
+.look-desc-col {
+    float: left;
+    width: 40%;
+}
+
+.look-image {
+    width: 500px;
+    height: 700px;
+}
+
+/*overlay*/ 
 .overlay {
     position: absolute;
     top: 0;

@@ -109,10 +109,10 @@ li a {
 /*SHOP COLUMNS*/
 .s-column {
     float: left;
-    width: 30%;
+    width: 25%;
 }
 
-h4, h4 > p {
+h4, h4 + p {
     text-align: center;
 }
 

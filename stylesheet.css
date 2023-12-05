@@ -3,9 +3,9 @@
 
 /* logo image */
 #logoimg {position: fixed;
-    top: 0;
-    left: 0;
-    width: 100px;
+    top: 0; 
+    margin-top: 50;
+    width: 200px;
     height: auto;
 }
 

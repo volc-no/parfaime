@@ -6,7 +6,7 @@ header {
 }
 
 /* logo image */
-#logoimg {position: fixed;
+#logoimg {position: relative;
     top: 0; 
     margin-top: 150;
     width: 200px;
@@ -43,11 +43,6 @@ header {
     padding-top: 20;
     top: 0px;
     right: 0px;
-}
-
-.annasui, .perfumes {
-    max-width: 100%;
-    height: auto;
 }
 
 .shop-item {
@@ -144,29 +139,29 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
 /*ABOUT COLUMNS*/
 .a1-column {
     float: left;
-    width: 25%;
+    width: 35%;
 }
 
 .a2-column {
     float: left;
-    width: 34%;
+    width: 30%;
 }
 
 .a3-column {
     float: left;
-    width: 36%;
+    width: 34%;
 }
 
 /* about and purpose box*/
 #abouttext, #purposetext {width: auto;}
 
-input[type=submit] {
+input[type=submit], input[type=button] {
     color: darkslategrey;
     cursor: pointer;
     border: 1px darkslategrey; 
     border-radius: 50%;
     padding: 15px 32px;
-    text-align: center;
+    align-self: center;
 }
 
 .collection-column {float: left;
@@ -210,10 +205,12 @@ input[type=submit] {
 
 footer {
     color: darkslategrey;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 10px;
+    font-size: 6px;
+    padding: 0;
+    margin: 0;
 }

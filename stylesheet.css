@@ -163,6 +163,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 input[type=submit], input[type=button] {
     color: white;
+    background-color: grey;
     cursor: pointer;
     border: 1px darkslategrey; 
     border-radius: 50%;

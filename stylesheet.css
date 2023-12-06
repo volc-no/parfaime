@@ -195,8 +195,43 @@ input[type=submit], input[type=button] {
 
 .collection-container{
     text-align: center;
-    color: black;
+    position: relative; /*new*/
 }
+
+/*-----------------------------------------------*/
+
+.collection-container:hover .collection-desc-layer {
+    visibility: visible;
+    opacity: 1;
+}
+
+.collection-desc {
+    transition: .2s;
+    transform: translateY(1em);
+}
+
+.collection-desc-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: none;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: opacity .2s, visibility .2s; 
+}
+
+.collection-container:hover .collection-desc {
+    transform: translateY(0);
+}
+
+/*----------------------------------------*/
   
 .center-text {
     color: white;

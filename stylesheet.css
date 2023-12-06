@@ -114,11 +114,13 @@ li a {
 }
 
 h4, h4 + p {
-    text-align: center;
+    text-align: left;
 }
 
 h4 p:not(:first-child) {
-    color: gray;
+    color:lightslategray;
+    text-align: left;
+    font-weight: bold;
 }
 
 /* styles the column for the header*/
@@ -170,7 +172,7 @@ input[type=submit], input[type=button] {
     color: white;
     cursor: pointer;
     border: 1px darkslategrey; 
-    background-color: darkslategrey;
+    background-color: darkred;
     border-radius: 50%;
     padding: 15px 20px;
     align-self: center;

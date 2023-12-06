@@ -169,7 +169,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
 /* about and purpose box*/
 #abouttext, #purposetext {width: auto;}
 
-input[type=submit], input[type=button] {
+button {
     color: white;
     cursor: pointer;
     border: 1px darkslategrey; 

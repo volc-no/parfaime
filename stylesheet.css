@@ -206,6 +206,8 @@ input[type=submit], input[type=button] {
 }
 
 .collection-desc {
+    font-size: 150px;
+    font-weight: bold;
     transition: .2s;
     transform: translateY(1em);
 }
@@ -218,7 +220,6 @@ input[type=submit], input[type=button] {
     right: 0;
     background: none;
     color: white;
-    font-size: 200px;
     visibility: hidden;
     opacity: 0;
     display: flex;

@@ -118,7 +118,7 @@ h4, h4 + p {
     text-align: left;
 }
 
-h4 p:not(:first-child) {
+h4 p:nth-child(2) {
     color:lightslategray;
     text-align: left;
     font-weight: bold;

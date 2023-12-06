@@ -166,6 +166,7 @@ input[type=submit], input[type=button] {
     color: white;
     cursor: pointer;
     border: 1px darkslategrey; 
+    background-color: darkslategrey;
     border-radius: 50%;
     padding: 15px 20px;
     align-self: center;
@@ -202,7 +203,7 @@ input[type=submit], input[type=button] {
 
 /* LOOKBOOK */
 .look-img-col {
-    float: left;
+    float: right;
     width: 60%;
 }
 

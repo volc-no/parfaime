@@ -169,7 +169,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
 /* about and purpose box*/
 #abouttext, #purposetext {width: auto;}
 
-button {
+#submitb {
     color: white;
     cursor: pointer;
     border: 1px darkslategrey; 
@@ -284,7 +284,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 0;
     margin: 0;
 }
